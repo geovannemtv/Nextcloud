@@ -1,0 +1,9 @@
+#!/bin/bash
+
+
+set -e
+
+cd /var/www/html/ 
+
+
+exec apache2ctl -D FOREGROUND
