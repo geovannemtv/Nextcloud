@@ -1,6 +1,6 @@
 FROM debian:9
 
-MAINTAINER "geovanne queiroz infraadmins@supera.com.br"
+MAINTAINER "geovanne queiroz "
 
 WORKDIR /var/www/html
 
