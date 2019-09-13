@@ -1,7 +1,7 @@
 version: "3"
 services:
   app-nextcloud:
-    image: registry.supera.com.br/template-nextcloud:16.0.4
+    build: .
     container_name: app-nextcloud
     ports:
     - "8000:80"
